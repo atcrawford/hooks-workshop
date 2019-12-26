@@ -2,7 +2,7 @@ import React from 'react'
 
 import LoggedIn from 'app/LoggedIn'
 import LoggedOut from 'app/LoggedOut'
-import useAuthHook from '/Users/drew/src/hooks-workshop/lessons/05-data-loading/exercise/AuthHook'
+import useAuthHook from 'app/AuthHook'
 
 export default function App() {
   const {auth, authAttempted} = useAuthHook()
